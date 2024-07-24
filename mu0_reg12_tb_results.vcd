@@ -1,0 +1,99 @@
+$date
+	Tue Dec 15 19:19:35 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	100ps
+$end
+$scope module mu0_reg12_tb $end
+$var wire 12 ! Q [11:0] $end
+$var reg 1 " Clk $end
+$var reg 12 # D [11:0] $end
+$var reg 1 $ En $end
+$var reg 1 % Reset $end
+$scope module dut $end
+$var wire 1 " Clk $end
+$var wire 12 & D [11:0] $end
+$var wire 1 $ En $end
+$var wire 1 % Reset $end
+$var reg 12 ' Q [11:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx '
+b100000001 &
+0%
+0$
+b100000001 #
+0"
+bx !
+$end
+#500
+1"
+#1000
+0"
+1$
+#1500
+b100000001 !
+b100000001 '
+1"
+#2000
+0"
+b100010001 #
+b100010001 &
+#2500
+b100010001 !
+b100010001 '
+1"
+#3000
+0"
+0$
+b0 #
+b0 &
+#3500
+1"
+#4000
+0"
+b100000000 #
+b100000000 &
+#4500
+1"
+#5000
+0"
+1$
+#5500
+b100000000 !
+b100000000 '
+1"
+#6000
+0"
+b100010000 #
+b100010000 &
+#6500
+b100010000 !
+b100010000 '
+1"
+#7000
+0"
+1%
+b10001 #
+b10001 &
+#7500
+b0 !
+b0 '
+1"
+#8000
+0"
+0%
+b1 #
+b1 &
+#8500
+b1 !
+b1 '
+1"
+#9000
+0"
